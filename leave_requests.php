@@ -9,6 +9,61 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 
 // Include database connection
 require_once 'dp.php';
+
+// Fetch leave requests from the database
+function getLeaveRequests() {
+    global $conn;
+    $sql = "SELECT lr.*, et.leave_type_name FROM leave_requests lr JOIN leave_types et ON lr.leave_type_id = et.leave_type_id";
+    $stmt = $conn->query($sql);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+// Handle approval and rejection of leave requests
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['approveRequest'])) {
+        $requestId = $_POST['requestId'];
+        $sql = "UPDATE leave_requests SET status = 'Approved' WHERE request_id = ?";
+        $stmt = $conn->prepare($sql);
+        $stmt->execute([$requestId]);
+        // Redirect to prevent form resubmission
+        header("Location: leave_requests.php");
+        exit;
+    } elseif (isset($_POST['rejectRequest'])) {
+        $requestId = $_POST['requestId'];
+        $sql = "UPDATE leave_requests SET status = 'Rejected' WHERE request_id = ?";
+        $stmt = $conn->prepare($sql);
+        $stmt->execute([$requestId]);
+        // Redirect to prevent form resubmission
+        header("Location: leave_requests.php");
+        exit;
+    }
+}
+
+$leaveRequests = getLeaveRequests();
+
+// Calculate statistics
+$totalRequests = count($leaveRequests);
+$approvedRequests = 0;
+$pendingRequests = 0;
+$rejectedRequests = 0;
+
+foreach ($leaveRequests as $request) {
+    switch ($request['status']) {
+        case 'Approved':
+            $approvedRequests++;
+            break;
+        case 'Pending':
+            $pendingRequests++;
+            break;
+        case 'Rejected':
+            $rejectedRequests++;
+            break;
+    }
+}
+
+$approvedPercentage = $totalRequests > 0 ? ($approvedRequests / $totalRequests) * 100 : 0;
+$pendingPercentage = $totalRequests > 0 ? ($pendingRequests / $totalRequests) * 100 : 0;
+$rejectedPercentage = $totalRequests > 0 ? ($rejectedRequests / $totalRequests) * 100 : 0;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -108,87 +163,30 @@ require_once 'dp.php';
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            <?php foreach ($leaveRequests as $request): ?>
                                             <tr>
+                                                <td><?php echo htmlspecialchars($request['employee_name']); ?></td>
+                                                <td><?php echo htmlspecialchars($request['leave_type_name']); ?></td>
+                                                <td><?php echo htmlspecialchars($request['start_date']) . ' - ' . htmlspecialchars($request['end_date']); ?></td>
+                                                <td><?php echo htmlspecialchars($request['duration']); ?></td>
+                                                <td><?php echo htmlspecialchars($request['reason']); ?></td>
+                                                <td><span class="status-badge badge-<?php echo strtolower($request['status']); ?>"><?php echo htmlspecialchars($request['status']); ?></span></td>
                                                 <td>
-                                                    <div class="d-flex align-items-center">
-                                                        <img src="https://ui-avatars.com/api/?name=John+Doe&background=E91E63&color=fff&size=35" 
-                                                             alt="Profile" class="profile-image mr-2">
-                                                        <div>
-                                                            <h6 class="mb-0">John Doe</h6>
-                                                            <small class="text-muted">IT Department</small>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>Vacation Leave</td>
-                                                <td>
-                                                    <small>Dec 20 - Dec 27, 2024</small>
-                                                </td>
-                                                <td>7 days</td>
-                                                <td>Family vacation</td>
-                                                <td>
-                                                    <span class="status-badge badge-warning">Pending</span>
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn-sm btn-outline-success mr-2">
-                                                        <i class="fas fa-check"></i>
-                                                    </button>
-                                                    <button class="btn btn-sm btn-outline-danger">
-                                                        <i class="fas fa-times"></i>
-                                                    </button>
+                                                    <form method="POST" style="display:inline;">
+                                                        <input type="hidden" name="requestId" value="<?php echo $request['request_id']; ?>">
+                                                        <button type="submit" name="approveRequest" class="btn btn-sm btn-outline-success mr-2">
+                                                            <i class="fas fa-check"></i>
+                                                        </button>
+                                                    </form>
+                                                    <form method="POST" style="display:inline;">
+                                                        <input type="hidden" name="requestId" value="<?php echo $request['request_id']; ?>">
+                                                        <button type="submit" name="rejectRequest" class="btn btn-sm btn-outline-danger">
+                                                            <i class="fas fa-times"></i>
+                                                        </button>
+                                                    </form>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex align-items-center">
-                                                        <img src="https://ui-avatars.com/api/?name=Jane+Smith&background=E91E63&color=fff&size=35" 
-                                                             alt="Profile" class="profile-image mr-2">
-                                                        <div>
-                                                            <h6 class="mb-0">Jane Smith</h6>
-                                                            <small class="text-muted">HR Department</small>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>Sick Leave</td>
-                                                <td>
-                                                    <small>Dec 18 - Dec 20, 2024</small>
-                                                </td>
-                                                <td>3 days</td>
-                                                <td>Medical appointment</td>
-                                                <td>
-                                                    <span class="status-badge badge-success">Approved</span>
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn-sm btn-outline-primary">
-                                                        <i class="fas fa-eye"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div class="d-flex align-items-center">
-                                                        <img src="https://ui-avatars.com/api/?name=Mike+Johnson&background=E91E63&color=fff&size=35" 
-                                                             alt="Profile" class="profile-image mr-2">
-                                                        <div>
-                                                            <h6 class="mb-0">Mike Johnson</h6>
-                                                            <small class="text-muted">Finance</small>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <td>Emergency Leave</td>
-                                                <td>
-                                                    <small>Dec 22 - Dec 23, 2024</small>
-                                                </td>
-                                                <td>2 days</td>
-                                                <td>Family emergency</td>
-                                                <td>
-                                                    <span class="status-badge badge-danger">Rejected</span>
-                                                </td>
-                                                <td>
-                                                    <button class="btn btn-sm btn-outline-primary">
-                                                        <i class="fas fa-eye"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
+                                            <?php endforeach; ?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -207,37 +205,37 @@ require_once 'dp.php';
                                 <div class="row text-center mb-4">
                                     <div class="col-3">
                                         <div class="stats-box">
-                                            <h3 class="text-primary">24</h3>
+                                            <h3 class="text-primary"><?php echo $totalRequests; ?></h3>
                                             <small class="text-muted">Total Requests</small>
                                         </div>
                                     </div>
                                     <div class="col-3">
                                         <div class="stats-box">
-                                            <h3 class="text-success">18</h3>
+                                            <h3 class="text-success"><?php echo $approvedRequests; ?></h3>
                                             <small class="text-muted">Approved</small>
                                         </div>
                                     </div>
                                     <div class="col-3">
                                         <div class="stats-box">
-                                            <h3 class="text-warning">4</h3>
+                                            <h3 class="text-warning"><?php echo $pendingRequests; ?></h3>
                                             <small class="text-muted">Pending</small>
                                         </div>
                                     </div>
                                     <div class="col-3">
                                         <div class="stats-box">
-                                            <h3 class="text-danger">2</h3>
+                                            <h3 class="text-danger"><?php echo $rejectedRequests; ?></h3>
                                             <small class="text-muted">Rejected</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="progress mb-2">
-                                    <div class="progress-bar bg-success" style="width: 75%">Approved (75%)</div>
+                                    <div class="progress-bar bg-success" style="width: <?php echo $approvedPercentage; ?>%">Approved (<?php echo round($approvedPercentage); ?>%)</div>
                                 </div>
                                 <div class="progress mb-2">
-                                    <div class="progress-bar bg-warning" style="width: 17%">Pending (17%)</div>
+                                    <div class="progress-bar bg-warning" style="width: <?php echo $pendingPercentage; ?>%">Pending (<?php echo round($pendingPercentage); ?>%)</div>
                                 </div>
                                 <div class="progress">
-                                    <div class="progress-bar bg-danger" style="width: 8%">Rejected (8%)</div>
+                                    <div class="progress-bar bg-danger" style="width: <?php echo $rejectedPercentage; ?>%">Rejected (<?php echo round($rejectedPercentage); ?>%)</div>
                                 </div>
                             </div>
                         </div>
