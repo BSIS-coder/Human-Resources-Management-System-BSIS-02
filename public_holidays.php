@@ -70,7 +70,7 @@ require_once 'dp.php';
 </head>
 <body>
     <div class="container-fluid">
-        <?php include 'navigation.php'; ?>
+<?php require_once 'navigation.php'; ?>
         <div class="row">
             <?php include 'sidebar.php'; ?>
             <div class="main-content">

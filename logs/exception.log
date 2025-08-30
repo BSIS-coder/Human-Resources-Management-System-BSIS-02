@@ -2,3 +2,10 @@
 2025-08-26 05:22:54 Exception: Call to a member function query() on null in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\describe_public_holidays.php on line 5
 2025-08-26 05:23:33 Exception: Call to a member function query() on null in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\describe_public_holidays.php on line 8
 2025-08-26 05:24:42 Exception: Call to a member function query() on null in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\add_holiday_type_column.php on line 6
+2025-08-26 08:41:03 Exception: Call to undefined function getShifts() in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_shifts.php on line 60
+2025-08-26 08:41:06 Exception: Call to undefined function getShifts() in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_shifts.php on line 60
+2025-08-26 08:41:07 Exception: Call to undefined function getShifts() in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_shifts.php on line 60
+2025-08-26 08:41:07 Exception: Call to undefined function getShifts() in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_shifts.php on line 60
+2025-08-26 08:41:10 Exception: Call to undefined function getShifts() in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_shifts.php on line 60
+2025-08-26 08:41:34 Exception: Call to undefined function getShifts() in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_shifts.php on line 60
+2025-08-26 08:41:58 Exception: Call to undefined function getShifts() in C:\Program Files\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_shifts.php on line 60

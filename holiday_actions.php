@@ -222,13 +222,13 @@ function fetchPublicHolidaysFromNager($country = DEFAULT_COUNTRY, $year = null) 
 }
 
 // Function to automatically sync holidays from available APIs
-function syncHolidaysFromAPI($country = DEFAULT_COUNTRY) {
+function syncHolidaysFromAPI($country = DEFAULT_COUNTRY, $year = null) {
     // Try Calendarific first
-    $result = fetchPublicHolidaysFromCalendarific($country);
+    $result = fetchPublicHolidaysFromCalendarific($country, $year);
     
     if (!$result['success']) {
         // Fallback to Nager.Date
-        $result = fetchPublicHolidaysFromNager($country);
+        $result = fetchPublicHolidaysFromNager($country, $year);
     }
     
     return $result;

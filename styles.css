@@ -359,6 +359,7 @@ body {
     padding: 90px 20px 20px;
     transition: margin-left 0.3s;
     width: calc(100% - 250px);
+    min-height: calc(100vh - 90px);
 }
 
 /* Stats Cards */
