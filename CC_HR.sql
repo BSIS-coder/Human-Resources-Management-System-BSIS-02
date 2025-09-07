@@ -689,7 +689,7 @@ CREATE TABLE job_applications (
     job_opening_id INT NOT NULL,
     candidate_id INT NOT NULL,
     application_date DATETIME NOT NULL,
-    status ENUM('Applied', 'Screening', 'Interview', 'Assessment', 'Reference Check', 'Offer', 'Hired', 'Rejected', 'Withdrawn') DEFAULT 'Applied',
+    status ENUM('Applied', 'Screening', 'Interview', 'Assessment', 'Onboarding', 'Offer', 'Hired', 'Rejected') DEFAULT 'Applied',
     notes TEXT,
     assessment_scores JSON,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -780,6 +780,36 @@ CREATE TABLE onboarding_tasks (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (department_id) REFERENCES departments(department_id) ON DELETE SET NULL
+);
+
+-- Create onboarding table for candidates
+CREATE TABLE onboarding (
+    onboarding_id INT AUTO_INCREMENT PRIMARY KEY,
+    application_id INT NOT NULL,
+    candidate_id INT NOT NULL,
+    department_id INT NOT NULL,
+    start_date DATE NOT NULL,
+    expected_completion_date DATE NOT NULL,
+    status ENUM('Pending', 'In Progress', 'Completed') DEFAULT 'Pending',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (application_id) REFERENCES job_applications(application_id) ON DELETE CASCADE,
+    FOREIGN KEY (candidate_id) REFERENCES candidates(candidate_id) ON DELETE CASCADE,
+    FOREIGN KEY (department_id) REFERENCES departments(department_id) ON DELETE CASCADE
+);
+
+-- Create onboarding_task_progress table for tracking individual task completion
+CREATE TABLE onboarding_task_progress (
+    progress_id INT AUTO_INCREMENT PRIMARY KEY,
+    onboarding_id INT NOT NULL,
+    task_id INT NOT NULL,
+    status ENUM('Pending', 'Completed', 'Failed') DEFAULT 'Pending',
+    completed_date DATE NULL,
+    notes TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (onboarding_id) REFERENCES onboarding(onboarding_id) ON DELETE CASCADE,
+    FOREIGN KEY (task_id) REFERENCES onboarding_tasks(task_id) ON DELETE CASCADE
 );
 
 -- Create employee_onboarding table (no hiring manager reference)

@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 // Get dashboard statistics
 $stats_query = "SELECT 
     COUNT(*) as total_hired,
-    COUNT(CASE WHEN ja.status = 'Hired' THEN 1 END) as pending_creation,
+    COUNT(CASE WHEN ja.status = 'Offer' THEN 1 END) as pending_creation,
     COUNT(CASE WHEN ja.status = 'Employee Created' THEN 1 END) as employees_created,
     COUNT(CASE WHEN ja.status = 'Employee Created' AND MONTH(ja.application_date) = MONTH(CURDATE()) THEN 1 END) as created_this_month
     FROM candidates c 
@@ -63,7 +63,7 @@ $hired_candidates = $conn->query("SELECT c.*, ja.application_id, ja.application_
                                  JOIN job_applications ja ON c.candidate_id = ja.candidate_id
                                  JOIN job_openings jo ON ja.job_opening_id = jo.job_opening_id
                                  JOIN departments d ON jo.department_id = d.department_id
-                                 WHERE ja.status = 'Hired'
+                                 WHERE ja.status = 'Offer'
                                  ORDER BY ja.application_date DESC")->fetchAll(PDO::FETCH_ASSOC);
 
 // Get recent employee creations

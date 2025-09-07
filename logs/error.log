@@ -1606,3 +1606,304 @@
 2025-09-04 05:51:06 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_onboarding.php:177
 2025-09-04 05:51:06 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_onboarding.php:178
 2025-09-04 05:51:06 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:23:16 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:23:16 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:23:16 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:24:54 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:24:54 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:24:54 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [2] Undefined array key "position" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:176
+2025-09-04 07:28:13 Error: [2] Undefined array key "department_name" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [8192] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:177
+2025-09-04 07:28:13 Error: [2] Undefined array key "onboarding_date" - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 07:28:13 Error: [8192] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\employee_onboarding.php:178
+2025-09-04 17:54:06 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 17:55:46 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:17:27 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:17:31 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:19:22 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:19:22 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:19:26 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:20:45 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:19 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:19 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:19 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:23 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:23 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:23 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:40 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:40 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:24:40 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:29:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:29:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:29:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:296
+2025-09-04 18:30:23 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:30:23 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:30:23 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:30:25 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:30:25 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:30:25 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:31:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:31:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:31:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:31:04 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:31:04 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 18:31:04 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:02:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:02:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:02:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:02:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:02:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:02:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:10:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:10:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:10:01 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:10:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:10:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:10:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:13:42 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:13:42 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:13:42 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:13:50 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:13:50 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:13:50 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:14:03 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:14:03 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:14:03 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:14:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:14:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:14:10 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:19:03 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:19:03 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:19:03 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:19:21 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:19:21 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:19:21 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:23:09 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:23:09 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:23:09 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:28:42 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:28:42 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:28:42 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:34:31 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:34:31 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:34:31 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:37:57 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:37:57 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:37:57 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:54:38 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:54:38 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:54:38 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:54:46 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:54:46 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:54:46 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:55:29 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:55:29 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 19:55:29 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 20:11:40 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 20:11:40 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 20:11:45 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-04 20:11:45 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:26:41 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:26:41 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:26:41 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:26:54 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:26:54 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:26:54 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:28:22 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:28:22 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:29:59 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:29:59 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:30:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 05:30:05 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 08:03:54 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 08:03:54 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:56:58 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:56:58 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:56:58 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:57:06 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:57:06 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:57:18 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:57:18 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:57:22 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:57:22 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:57:35 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 09:57:35 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 10:00:13 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295
+2025-09-05 10:00:13 Error: [8192] json_decode(): Passing null to parameter #1 ($json) of type string is deprecated - C:\xampp\htdocs\Human-Resources-Management-System-BSIS-02-old\job_applications.php:295

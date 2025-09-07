@@ -56,21 +56,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 // Auto-start interview stages based on job application status
-$conn->exec("UPDATE candidates c 
-             JOIN job_applications ja ON c.candidate_id = ja.candidate_id 
-             JOIN interview_stages ist ON ja.job_opening_id = ist.job_opening_id 
-             SET c.source = ist.stage_name, ja.status = 'Interview' 
-             WHERE ja.status = 'Screening' AND ist.stage_order = 1");
+$conn->exec("UPDATE job_applications ja 
+             SET ja.status = 'Interview' 
+             WHERE ja.status = 'Screening' 
+             AND EXISTS (SELECT 1 FROM interview_stages ist WHERE ist.job_opening_id = ja.job_opening_id)");
 
-// Create interviews for candidates who reach each stage
+// Create interviews for first stage when status becomes Interview
 try {
     $result = $conn->exec("INSERT INTO interviews (application_id, stage_id, schedule_date, duration, interview_type, status)
                  SELECT ja.application_id, ist.stage_id, NOW(), 60, 'Interview', 'Rescheduled'
-                 FROM candidates c 
-                 JOIN job_applications ja ON c.candidate_id = ja.candidate_id 
-                 JOIN interview_stages ist ON ja.job_opening_id = ist.job_opening_id AND c.source = ist.stage_name
+                 FROM job_applications ja 
+                 JOIN interview_stages ist ON ja.job_opening_id = ist.job_opening_id AND ist.stage_order = 1
                  WHERE ja.status = 'Interview' 
-                 AND NOT EXISTS (SELECT 1 FROM interviews i WHERE i.application_id = ja.application_id AND i.stage_id = ist.stage_id)");
+                 AND NOT EXISTS (SELECT 1 FROM interviews i WHERE i.application_id = ja.application_id)");
     
     if ($result > 0) {
         $success_message = "✅ Created $result new interviews!";
@@ -79,14 +77,14 @@ try {
     $success_message = "❌ Error creating interviews: " . $e->getMessage();
 }
 
-// Get job openings with candidates ready for onboarding (based on job application status)
+// Get job openings with candidates in interview process
 $job_openings = $conn->query("SELECT DISTINCT jo.job_opening_id, jo.title, d.department_name, 
-                                     COUNT(CASE WHEN ja.status = 'Hired' THEN 1 END) as hired_count,
-                                     COUNT(CASE WHEN ja.status = 'Interview' THEN 1 END) as in_process_count
+                                     COUNT(CASE WHEN ja.status = 'Assessment' THEN 1 END) as assessment_count,
+                                     COUNT(CASE WHEN ja.status = 'Interview' THEN 1 END) as interview_count
                               FROM job_openings jo
                               JOIN departments d ON jo.department_id = d.department_id
                               JOIN job_applications ja ON jo.job_opening_id = ja.job_opening_id
-                              WHERE ja.status IN ('Interview', 'Screening', 'Hired')
+                              WHERE ja.status IN ('Interview', 'Assessment')
                               GROUP BY jo.job_opening_id, jo.title, d.department_name
                               ORDER BY jo.title")->fetchAll(PDO::FETCH_ASSOC);
 
@@ -108,14 +106,15 @@ if ($selected_job) {
     // Get candidates for each stage with interview status
     $candidates_by_stage = [];
     foreach ($stages as $stage) {
-        $candidates = $conn->prepare("SELECT c.*, ja.application_id, ja.application_date, 
+        $candidates = $conn->prepare("SELECT c.*, ja.application_id, ja.application_date, ja.status as app_status,
                                             i.interview_id, i.status as interview_status, i.schedule_date
                                      FROM candidates c 
                                      JOIN job_applications ja ON c.candidate_id = ja.candidate_id
                                      LEFT JOIN interviews i ON ja.application_id = i.application_id AND i.stage_id = ?
-                                     WHERE ja.job_opening_id = ? AND ja.status IN ('Interview', 'Screening', 'Hired') AND c.source = ?
+                                     WHERE ja.job_opening_id = ? AND ja.status IN ('Interview', 'Assessment')
+                                     AND (i.stage_id = ? OR ja.status = 'Assessment')
                                      ORDER BY ja.application_date DESC");
-        $candidates->execute([$stage['stage_id'], $selected_job, $stage['stage_name']]);
+        $candidates->execute([$stage['stage_id'], $selected_job, $stage['stage_id']]);
         $candidates_by_stage[$stage['stage_name']] = $candidates->fetchAll(PDO::FETCH_ASSOC);
     }
 }
@@ -164,11 +163,11 @@ if ($selected_job) {
                                         <h5 class="card-title"><?php echo htmlspecialchars($job['title']); ?></h5>
                                         <p class="card-text text-muted"><?php echo htmlspecialchars($job['department_name']); ?></p>
                                         <div class="mt-3">
-                                            <?php if ($job['hired_count'] > 0): ?>
-                                                <span class="badge badge-success"><?php echo $job['hired_count']; ?> Hired</span>
+                                            <?php if ($job['assessment_count'] > 0): ?>
+                                                <span class="badge badge-success"><?php echo $job['assessment_count']; ?> In Assessment</span>
                                             <?php endif; ?>
-                                            <?php if ($job['in_process_count'] > 0): ?>
-                                                <span class="badge badge-warning"><?php echo $job['in_process_count']; ?> In Process</span>
+                                            <?php if ($job['interview_count'] > 0): ?>
+                                                <span class="badge badge-warning"><?php echo $job['interview_count']; ?> In Interview</span>
                                             <?php endif; ?>
                                         </div>
                                         <div class="mt-3">
